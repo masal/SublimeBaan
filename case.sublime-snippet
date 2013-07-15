@@ -1,12 +1,12 @@
 <snippet>
     <content><![CDATA[
 on case $1
-  case $2:
+case $2:
 
-    break
-  default
+	break
+default
 
-    break
+	break
 endcase
 
 ]]></content>
