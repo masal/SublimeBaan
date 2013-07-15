@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+  <key>name</key>
+  <string>Indent</string>
+  <key>scope</key>
+  <string>source.baan</string>
+  <key>settings</key>
+  <dict>
+    <key>decreaseIndentPattern</key>
+    <string>(^\s*(endselect|endif|else|selectempty|selecteos|endfor|endwhile|endcase)\s*(\|.*)*$)|^\s*}(\|.*)*$|^\s*case\s+.+:\s*(\|.*)*$|^\s*(declaration|default|form\.(\d|all)|choice\.\S+|on\.choice|field\.\S+|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+|main\.table\.io|functions)\s*:\s*(\|\w*)*$</string>
+    <key>increaseIndentPattern</key>
+    <string>(^\s*(selectdo|selectempty|selecteos|else|for|while|on case|case)\b)|^\s*{\s*(\|.*)*$|^\s*(declaration|default|on\.choice|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+)\s*:\s*(\|.*)*$|([^|]*\s+|^\s*)then\s*(\|.*)*$</string>
+    <key>unIndentedLinePattern</key>
+    <string>^#ident|^\|</string>
+  </dict>
+  <key>uuid</key>
+  <string>9D268120-ECBF-11E2-943D-A114612EF252</string>
+</dict>
+</plist>

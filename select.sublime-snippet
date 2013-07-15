@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+select $1.*
+from $1
+where $1._index1 = { :$2 }
+selectdo
+
+selectempty
+
+endselect
+
+]]></content>
+    <tabTrigger>sel</tabTrigger>
+    <scope>source.baan</scope>
+    <description>select from where selecdo selectempty endselect</description>
+</snippet>

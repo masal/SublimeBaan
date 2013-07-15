@@ -1,0 +1,16 @@
+<snippet>
+    <content><![CDATA[
+on case $1
+  case $2:
+
+    break
+  default
+
+    break
+endcase
+
+]]></content>
+    <tabTrigger>cas</tabTrigger>
+    <scope>source.baan</scope>
+    <description>on case</description>
+</snippet>

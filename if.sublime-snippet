@@ -1,0 +1,11 @@
+<snippet>
+    <content><![CDATA[
+if $1 then
+  $2
+endif
+
+]]></content>
+    <tabTrigger>if</tabTrigger>
+    <scope>source.baan</scope>
+    <description>if then endif</description>
+</snippet>

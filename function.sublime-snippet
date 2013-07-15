@@ -1,0 +1,13 @@
+<snippet>
+    <content><![CDATA[
+function long $1(domain $2)
+{
+
+  return(true)
+}
+
+]]></content>
+    <tabTrigger>fun</tabTrigger>
+    <scope>source.baan</scope>
+    <description>if then endif</description>
+</snippet>
