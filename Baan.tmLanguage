@@ -18,7 +18,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>^\s*(#include|#define|#pragma)</string>
+			<string>^\s*(#include|#define|#pragma|#ident)</string>
 			<key>name</key>
 			<string>keyword.other.preprocessor.baan</string>
 		</dict>
@@ -84,7 +84,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\S)(select|from|where|for update|as set with \d* rows|order by|group by|selectdo|selectempty|selecteos|endselect|desc)(?!\S)</string>
+			<string>(?&lt;!\S)(select|from|where|for update|as set with \d+ rows|order by|group by|selectdo|selectempty|selecteos|endselect|desc)(?!\S)</string>
 			<key>name</key>
 			<string>keyword.control.sql.baan</string>
 		</dict>
