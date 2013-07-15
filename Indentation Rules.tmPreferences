@@ -9,9 +9,9 @@
   <key>settings</key>
   <dict>
     <key>decreaseIndentPattern</key>
-    <string>(^\s*(endselect|endif|else|selectempty|selecteos|endfor|endwhile|endcase)\s*(\|.*)*$)|^\s*}\s*(\|.*)*$|^\s*case\s+.+:\s*(\|.*)*$|^\s*(declaration|default|form\.(\d|all)|choice\.\S+|on\.choice|field\.\S+|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+|main\.table\.io|functions)\s*:\s*(\|.*)*$</string>
+    <string>(^\s*(endselect|endif|else|selectempty|selecteos|endfor|endwhile|endcase)\s*(\|.*)*$)|^\s*}\s*(\|.*)*$|^\s*case\s+.+:\s*(\|.*)*$|^\s*(declaration|default|zoom\.from.*|form\.(\d|all)|choice\.\S+|on\.choice|field\.\S+|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+|main\.table\.io|functions)\s*:\s*(\|.*)*$</string>
     <key>increaseIndentPattern</key>
-    <string>(^\s*(selectdo|selectempty|selecteos|else|for|while|on case|case)\b)|^\s*{\s*(\|.*)*$|^\s*(declaration|default|on\.choice|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+)\s*:\s*(\|.*)*$|([^|]*\s+|^\s*)then\s*(\|.*)*$</string>
+    <string>(^\s*(selectdo|selectempty|selecteos|else|for|while|on case|case)\b)|^\s*{\s*(\|.*)*$|^\s*(declaration|default|on\.(choice|entry|exit)|check\.input|when\.field\.changes|init\.form|after\.\S+|before\.\S+)\s*:\s*(\|.*)*$|([^|]*\s+|^\s*)then\s*(\|.*)*$</string>
     <key>unIndentedLinePattern</key>
     <string>^#ident|^\|</string>
   </dict>
