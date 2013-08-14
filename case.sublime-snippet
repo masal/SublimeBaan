@@ -4,7 +4,7 @@ on case $1
 case $2:
 
 	break
-default
+default:
 
 	break
 endcase
