@@ -78,7 +78,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\S)(break|on case|case|endcase|continue|default|default:|do|else|for|endfor|goto|if|then|endif|return|while|endwhile|and|or|not)(?!\S)</string>
+			<string>((?&lt;!\S)|(?&lt;=\())(break|on case|case|endcase|continue|default|default:|do|else|for|endfor|goto|if|then|endif|return|while|endwhile|and|or|not)(?!\S)</string>
 			<key>name</key>
 			<string>keyword.control.baan</string>
 		</dict>
