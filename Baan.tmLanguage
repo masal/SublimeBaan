@@ -4,12 +4,30 @@
 <dict>
 	<key>fileTypes</key>
 	<array>
-		<string>cln</string>
+        <string>cln</string>
+		<string>bc</string>
 	</array>
 	<key>name</key>
 	<string>Baan</string>
 	<key>patterns</key>
 	<array>
+        <dict>
+            <key>captures</key>
+            <dict>
+                <key>1</key>
+                <dict>
+                    <key>name</key>
+                    <string>storage.type.function.source.baan</string>
+                </dict>
+                <key>2</key>
+                <dict>
+                    <key>name</key>
+                    <string>entity.name.function.source.baan</string>
+                </dict>
+            </dict>
+            <key>match</key>
+            <string>(function).*\s+([\w\.]+)\(</string>
+        </dict>        
 		<dict>
 			<key>match</key>
 			<string>\|.+</string>
@@ -165,7 +183,7 @@
 			<string>((?&lt;!\S)|(?&lt;=[\(,]))(empty|true|false|Z\.SESSION|Z\.MENU|attr\.cf|db\.retry|start\.set|first\.view|next\.view|prev\.view|last\.view|def\.find|find\.data|first\.set|next\.set|display\.set|prev\.set|rotate\.curr|last\.set|add\.set|update\.db|dupl\.occur|recover\.set|mark\.delete|mark\.occur|change\.order|modify\.set|restart\.input|print\.data|create\.job|form\.tab\.change|first\.frm|next\.frm|prev\.frm|last\.frm|resize\.frm|cmd\.options|zoom|interrupt|end\.program|abort\.program|cont\.process|text\.manager|run\.job|global\.delete|global\.copy|save\.defaults|get\.defaults|start\.chart|start\.query|user\.\d|ask\.helpinfo|calculator|calendar|bms|cmd\.whats\.this|help\.index|attr\.bitset\.mask|attr\.changed|attr\.currkey|attr\.dbase|attr\.dbmaxlen|attr\.diga|attr\.digv|attr\.divf|attr\.dorp|attr\.echo|attr\.element|attr\.imax|attr\.inpfld|attr\.input|attr\.mandatory|attr\.maxlen|attr\.minlen|attr\.multioccur|attr\.permission|attr\.rang|attr\.reallen|attr\.rndm|attr\.rotate|attr\.sttp|attr\.textmaxlines|attr\.textmode|attr\.textstart|attr\.type|attr\.zoomcode|auto\.nextform|background|before\.update\.check|break\.view|chartgrp|choice|curr\.key|date|e|error\.bypass|fattr\.ftype|fattr\.horizontal|fattr\.init|fattr\.nrtabs|fattr\.occurnr|fattr\.seqno|fattr\.step|fattr\.toplines|fattr\.total\.line|filled\.occ|form\.curr|form\.next|form\.prev|graphical\.mode|ignore\.first\.event|in\.ret|initial\.resize|job\.device\.requested|job\.process|job\.skip\.date\.question|mark\.table|marked|max\.formtabs|modify\.prim\.key|number\.forms|parent|pid|previous\.choice|reportgrp|reportno|select\.only\.fields\.on\.form|shell\.type|start\.by\.wfc|stp\.abort\.error|stp\.check\.input\.error|stp\.skip\.error|synchronized\.reason|update\.status|user\.timer|win\.\w+|long|attr\.adju|attr\.conv|attr\.currency\$|attr\.deflt\$|attr\.descr\$|attr\.domain\$|attr\.domm\$|attr\.enum\.mask\$|attr\.format\.addition\$|attr\.helpfile\$|attr\.ille\$|attr\.lega\$|attr\.message\$|attr\.nowait\$|attr\.oformat\$|attr\.previous\$|attr\.rang\$|attr\.refpath|attr\.textfield\$|attr\.textkw\d\$|attr\.textlang\$|attr\.textopt\$|attr\.textzoomsession\$|attr\.zoomreturn\$|attr\.zoomsession\$|chm\.name|chm\.owner|chm\.title|chm\.user|curr\.pacc\$|date\$|exit\.val\$|fattr\.currfld\$|fattr\.descr\$|fattr\.helpfile\$|filename\$|firstweek\$|job\.device|job\.report|language\$|logname\$|main\.table\$|procesinfo\$|prog\.name\$|query\.extension|report\$|sattr\.descr\$|user\.locale\$|user\.type\$|zoomfield\$|zoomreturn\$)((?!\S)|(?=[,\)\(]))</string>
 			<key>name</key>
 			<string>constant.numeric.baan</string>
-		</dict>
+		</dict>		
 	</array>
 	<key>scopeName</key>
 	<string>source.baan</string>
