@@ -117,7 +117,7 @@
 		</dict>
 		<dict>
 			<key>match</key>
-			<string>(?&lt;!\S)(select|SELECT|from|FROM|where|WHERE|for update|FOR UPDATE|as set with \d+ rows|AS SET WITH \D+ ROWS|order by|ORDER BY|group by|GROUP BY|selectdo|SELECTDO|selectempty|SELECTEMPTY|selecteos|SELECTEOS|endselect|ENDSELECT|desc|DESC)(?!\S)</string>
+			<string>(?&lt;!\S)(select|SELECT|from|FROM|where|WHERE|for update|FOR UPDATE|as set with \d+ rows|AS SET WITH \D+ ROWS|order by|ORDER BY|group by|GROUP BY|selectdo|SELECTDO|selectempty|SELECTEMPTY|selecteos|SELECTEOS|endselect|ENDSELECT|desc|DESC|inrange|INRANGE)(?!\S)</string>
 			<key>name</key>
 			<string>keyword.control.sql.baan</string>
 		</dict>
