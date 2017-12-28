@@ -3,12 +3,11 @@
 <plist version="1.0">
 <dict>
   <key>name</key>
-  <string>Miscellaneous</string>
+  <string>Comment</string>
   <key>scope</key>
   <string>source.baan</string>
   <key>settings</key>
   <dict>
-    <string></string>
     <key>shellVariables</key>
     <array>
       <dict>
@@ -17,16 +16,9 @@
         <key>value</key>
         <string>| </string>
       </dict>
-      <dict>
-        <key>name</key>
-        <string>TM_COMMENT_DISABLE_INDENT</string>
-        <key>value</key>
-        <string>no</string>
-      </dict>
     </array>
-    
   </dict>
   <key>uuid</key>
-  <string>9D268120-ECBF-11E2-943D-A114612EF252</string>
+  <string>A2307B89-8F91-454E-B1FE-2BDF01E46518</string>
 </dict>
 </plist>
